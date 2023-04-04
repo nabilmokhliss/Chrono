@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP Chronomètre</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="container">
+        <div class="chronometre text-center mt-5">
+        <h1 class="fw-bolder"><i class="bi bi-stopwatch"></i> TOP CHRONO</h1>
+
+        <div class="temps p-3 m-4 fs-2 border border-black">
+            <span id="chronoId">00 : 00 : 00 : 00</span>
+        </div>
+
+        <button class="btn btn-outline-success fw-bolder px-4" id="startId"><i class="bi bi-play-fill"></i> Start</button>
+        <button class="btn btn-outline-danger fw-bolder px-4" id="stopId"><i class="bi bi-stop-fill"></i> Stop</button>
+        <button class="btn btn-outline-warning fw-bolder px-4" id="resetId"><i class="bi bi-arrow-clockwise"></i> Reset</button>
+    </div>
+    </div>
+
+
+    <script src="assets/main.js"></script>
+</body>
+</html>
